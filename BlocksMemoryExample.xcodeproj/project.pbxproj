@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B213E71F16D923E7007FC26D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B213E71E16D923E7007FC26D /* Foundation.framework */; };
+		B213E72216D923E7007FC26D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B213E72116D923E7007FC26D /* main.m */; };
+		B213E73416D9244F007FC26D /* BlocksRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = B213E72D16D9244F007FC26D /* BlocksRunner.m */; };
+		B213E73516D9244F007FC26D /* InstantBlocksRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = B213E72F16D9244F007FC26D /* InstantBlocksRunner.m */; };
+		B213E73616D9244F007FC26D /* MultiTimeBlocksRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = B213E73116D9244F007FC26D /* MultiTimeBlocksRunner.m */; };
+		B213E73716D9244F007FC26D /* OneTimeBlocksRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = B213E73316D9244F007FC26D /* OneTimeBlocksRunner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B213E71916D923E7007FC26D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B213E71B16D923E7007FC26D /* BlocksMemoryExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlocksMemoryExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		B213E71E16D923E7007FC26D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B213E72116D923E7007FC26D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B213E72416D923E7007FC26D /* BlocksMemoryExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlocksMemoryExample-Prefix.pch"; sourceTree = "<group>"; };
+		B213E72C16D9244F007FC26D /* BlocksRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlocksRunner.h; sourceTree = "<group>"; };
+		B213E72D16D9244F007FC26D /* BlocksRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlocksRunner.m; sourceTree = "<group>"; };
+		B213E72E16D9244F007FC26D /* InstantBlocksRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstantBlocksRunner.h; sourceTree = "<group>"; };
+		B213E72F16D9244F007FC26D /* InstantBlocksRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstantBlocksRunner.m; sourceTree = "<group>"; };
+		B213E73016D9244F007FC26D /* MultiTimeBlocksRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiTimeBlocksRunner.h; sourceTree = "<group>"; };
+		B213E73116D9244F007FC26D /* MultiTimeBlocksRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiTimeBlocksRunner.m; sourceTree = "<group>"; };
+		B213E73216D9244F007FC26D /* OneTimeBlocksRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneTimeBlocksRunner.h; sourceTree = "<group>"; };
+		B213E73316D9244F007FC26D /* OneTimeBlocksRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneTimeBlocksRunner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B213E71816D923E7007FC26D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B213E71F16D923E7007FC26D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B213E71216D923E7007FC26D = {
+			isa = PBXGroup;
+			children = (
+				B213E72016D923E7007FC26D /* BlocksMemoryExample */,
+				B213E71D16D923E7007FC26D /* Frameworks */,
+				B213E71C16D923E7007FC26D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B213E71C16D923E7007FC26D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B213E71B16D923E7007FC26D /* BlocksMemoryExample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B213E71D16D923E7007FC26D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B213E71E16D923E7007FC26D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B213E72016D923E7007FC26D /* BlocksMemoryExample */ = {
+			isa = PBXGroup;
+			children = (
+				B213E72C16D9244F007FC26D /* BlocksRunner.h */,
+				B213E72D16D9244F007FC26D /* BlocksRunner.m */,
+				B213E72E16D9244F007FC26D /* InstantBlocksRunner.h */,
+				B213E72F16D9244F007FC26D /* InstantBlocksRunner.m */,
+				B213E73016D9244F007FC26D /* MultiTimeBlocksRunner.h */,
+				B213E73116D9244F007FC26D /* MultiTimeBlocksRunner.m */,
+				B213E73216D9244F007FC26D /* OneTimeBlocksRunner.h */,
+				B213E73316D9244F007FC26D /* OneTimeBlocksRunner.m */,
+				B213E72116D923E7007FC26D /* main.m */,
+				B213E72316D923E7007FC26D /* Supporting Files */,
+			);
+			path = BlocksMemoryExample;
+			sourceTree = "<group>";
+		};
+		B213E72316D923E7007FC26D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B213E72416D923E7007FC26D /* BlocksMemoryExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B213E71A16D923E7007FC26D /* BlocksMemoryExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B213E72916D923E7007FC26D /* Build configuration list for PBXNativeTarget "BlocksMemoryExample" */;
+			buildPhases = (
+				B213E71716D923E7007FC26D /* Sources */,
+				B213E71816D923E7007FC26D /* Frameworks */,
+				B213E71916D923E7007FC26D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlocksMemoryExample;
+			productName = BlocksMemoryExample;
+			productReference = B213E71B16D923E7007FC26D /* BlocksMemoryExample */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B213E71316D923E7007FC26D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kataoka Naoyuki";
+			};
+			buildConfigurationList = B213E71616D923E7007FC26D /* Build configuration list for PBXProject "BlocksMemoryExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B213E71216D923E7007FC26D;
+			productRefGroup = B213E71C16D923E7007FC26D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B213E71A16D923E7007FC26D /* BlocksMemoryExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B213E71716D923E7007FC26D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B213E72216D923E7007FC26D /* main.m in Sources */,
+				B213E73416D9244F007FC26D /* BlocksRunner.m in Sources */,
+				B213E73516D9244F007FC26D /* InstantBlocksRunner.m in Sources */,
+				B213E73616D9244F007FC26D /* MultiTimeBlocksRunner.m in Sources */,
+				B213E73716D9244F007FC26D /* OneTimeBlocksRunner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B213E72716D923E7007FC26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B213E72816D923E7007FC26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B213E72A16D923E7007FC26D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlocksMemoryExample/BlocksMemoryExample-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B213E72B16D923E7007FC26D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlocksMemoryExample/BlocksMemoryExample-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B213E71616D923E7007FC26D /* Build configuration list for PBXProject "BlocksMemoryExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B213E72716D923E7007FC26D /* Debug */,
+				B213E72816D923E7007FC26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B213E72916D923E7007FC26D /* Build configuration list for PBXNativeTarget "BlocksMemoryExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B213E72A16D923E7007FC26D /* Debug */,
+				B213E72B16D923E7007FC26D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B213E71316D923E7007FC26D /* Project object */;
+}
