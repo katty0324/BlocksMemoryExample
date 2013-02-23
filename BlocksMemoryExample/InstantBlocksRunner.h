@@ -8,10 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^Runnable)(void);
-
 @interface InstantBlocksRunner : NSObject
 
-- (void)run:(Runnable)runnable;
+- (void)run:(void (^)(void))runnable;
 
 @end

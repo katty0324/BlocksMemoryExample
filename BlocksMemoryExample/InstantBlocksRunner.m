@@ -26,7 +26,7 @@
     
 }
 
-- (void)run:(Runnable)runnable {
+- (void)run:(void (^)(void))runnable {
     
     if(runnable)
         runnable();
